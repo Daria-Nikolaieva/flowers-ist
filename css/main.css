@@ -1,1 +1,99 @@
-/*  */i
+/*  */
+:root {
+    --white-text: #FFFFFF;
+    --black-text: #000000;
+    --accent-color: #5196C9;
+    --footer-bkg: #64564D;
+    --shadow-color: rgba(248, 205, 255, 0.29);
+    --current-text: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    color: var(--black-text);
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.hero .phone {
+    color: var(--white-text);
+    font-size: 25px;
+}
+
+.hero{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffdbfb+0,c4bcc7+100 */
+background: rgb(255,219,251); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,219,251,1) 0%, rgba(196,188,199,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,219,251,1) 0%,rgba(196,188,199,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,219,251,1) 0%,rgba(196,188,199,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffdbfb', endColorstr='#c4bcc7',GradientType=1 ); /* IE6-9 */
+}
+
+.lang a {
+    color: var(--white-text);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.lang .current{
+    color: var(--current-text);
+}
+
+.catalog-list h3 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.catalog-list p {
+    font-size: 24px;
+}
+
+.footer{
+    background-color: var(--footer-bkg);
+    color: var(--white-text);
+}
+
+.button {
+    text-decoration: none;
+    color: var(--white-text);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: var(--accent-color);
+} 
+
+.order input::placeholder {
+    font-size: 15px; 
+    font-family: 'Raleway';
+}
+
+.features {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer p {
+    font-size: 25px;
+}
+
+.footer a {
+    color: var(--white-text);
+    font-size: 15px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+}
+

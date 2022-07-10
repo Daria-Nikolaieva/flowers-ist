@@ -4,25 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <title>Document</title>
 </head>
 <body>
 
 <!-- header -->
-<header>
-    <a href="index.html" target="_blank"><img src="img/logo.png" alt="Логотип"></a>
-    <p>+90 553 973 80 84</p>
-    <!-- 2 logo svg?? -->
-</header>
+<!-- <header>
+</header> -->
 
 <!-- hero -->
-<section>
+<section class="hero">
+
+    <a href="index.html" target="_blank"><img src="img/logo.png" alt="Логотип"></a>
+    <p class="phone">+90 553 973 80 84</p>
+    <!-- 2 logo svg?? -->
+
     <h1>Доставка цветов в Стамбуле</h1>
-    <a href="каталог">Выбрать</a>
+    <a href="каталог" class="button">Выбрать</a>
     <!-- Слайдер?? -->
-    <ul>
-        <li><a href="">Рус</a></li>
+    <ul class="list lang">
+        <li><a href="" class="current">Рус</a></li>
         <li><a href="">Тур</a></li>
         <li><a href="">Анг</a></li>
     </ul>
@@ -31,9 +34,9 @@
 </section>
  
 <!-- Catalog -->
-<section>
+<section class="catalog">
     <h2>Сезонная коллекция</h2>
-    <ul>
+    <ul class="catalog-list list">
         <li>
             <img src="img/Secilia.png" alt="">
             <h3>Букет ромашек Сицилия</h3>
@@ -58,20 +61,20 @@
 </section>
 
 <!-- Order -->
-<section>
+<section class="order">
     <img src="img/order.png" alt="">
     <h2>Быстрый заказ цветов</h2>
     <input type="Имя" placeholder="Имя">
     <input type="Телефон" placeholder="Телефон">
-    <button>Заказать</button>
+    <button type="button" class="button">Заказать</button>
 </section>
 
 <!-- Features -->
-<section>
+<section class="features">
     <img src="img/logo.png" alt="">
     <h2>Доставка свежих цветов в день заказа</h2>
 
-    <ul>
+    <ul class="list">
         <li>Каждый букет собирает флорист</li>
         <li>Правильная температура храниния</li>
         <li>Оплата картой или наличными</li>
@@ -82,16 +85,16 @@
     
 </section>
 
-<footer>
-    <img src="img/logo.png" alt="">
-    <ul>
+<footer class="footer">
+    <img src="img/white_logo.png" alt="">
+    <ul class="list">
         <li><a href="">Букеты</a></li>
         <li><a href="">Моно букеты</a></li>
         <li><a href="">Корзины</a></li>
         <li><a href="">Подарки</a></li>
     </ul>
 
-    <ul>
+    <ul class="list">
         <li><a href="">Главная</a></li>
         <li><a href="">О нас</a></li>
         <li><a href="">Каталог</a></li>
